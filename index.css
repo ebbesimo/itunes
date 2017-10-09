@@ -1,0 +1,38 @@
+html, body{
+    height:100%;
+    background-color: #f1f1f1;
+}
+.header{
+    width: 100vh;
+    height: 20px;
+    background-color: grey;
+    margin: 0;
+}
+
+.frontpage{
+    height: 100vh;
+    margin: 20% 0;
+}
+
+#choice{
+    text-align: center;
+    margin:20px 0px;
+}
+
+.frontpage img{
+    margin-top:20px;
+}
+
+.images-fp{
+    margin-bottom: 20px;
+}
+
+#choice p{
+    font-size: 20px;
+}
+
+page1, page2, page3, page4{
+    height: 100vh;
+}
+
+
