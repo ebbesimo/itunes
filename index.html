@@ -8,33 +8,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <title>itunes</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://use.fontawesome.com/aea8ebc589.js"></script>
 </head>
 
 <body>
-
+<a name="top"></a>
+<div class="header">
+    <p>mytunes///</p>
+</div>
 <div class="container" id="frontpage">
         
         <!--frontpage html-->
                 
-        <div class="frontpage">
+        <div id="frontpage">
             
             <div id="choice" class="col 12">
-                <p>MAKE YOUR CHOICE</p>
+                <p>MAKE <br>YOUR CHOICE</p>
             </div>
-            
+            <div class="line_fp_above"></div>
             <div class="images-fp">
                 <div class="row">
-                    <a href="#" class="col-6" class="d-flex flex-row"><img src="img/foofighters.png" alt="Image of album of the Foo Fighters" class="img-thumbnail"></a>
-                    <a href="#" class="col-6" class="d-flex flex-row"><img src="img/rhcp.png" alt="Image of album of the Red Hot Chili Peppers" class="img-thumbnail"></a>
-                </div>
-
-                <div class="row">
-                    <a href="#" class="col-6" class="d-flex flex-row"><img src="img/eden.png" alt="Image of album of Eden" class="img-thumbnail"></a>
-                    <a href="#" class="col-6" class="d-flex flex-row"><img src="img/riseagainst.png" alt="Image of album of Rise Against" class="img-thumbnail"></a>
+                    <a href="#page1" class="col-lg-3" class="col-xs-6" class="d-flex flex-row"><img src="img/foofighters.png" alt="Image of album of the Foo Fighters" class="img-thumbnail"></a>
+                    <a href="#page2" class="col-lg-3" class="col-xs-6" class="d-flex flex-row"><img src="img/rhcp.png" alt="Image of album of the Red Hot Chili Peppers" class="img-thumbnail"></a>
+      
+                    <a href="#page3" class="col-lg-3" class="col-xs-6" class="d-flex flex-row"><img src="img/eden.png" alt="Image of album of Eden" class="img-thumbnail"></a>
+                    <a href="#page4" class="col-lg-3" class="col-xs-6" class="d-flex flex-row"><img src="img/riseagainst.png" alt="Image of album of Rise Against" class="img-thumbnail"></a>
                 </div>
             </div>
+            <div class="line_fp_under"></div>
 
-            <div class="text-center" class="col-12">  
+            <div class="text-center" class="col-12" id="hand">  
                 <img src="img/styles/hand.png" alt="Selectorhand"  class="hand" height="40px">   
             </div>
         </div>
@@ -43,8 +46,8 @@
         <div class="content">
 
         <!--page 1 html-->
-            <div class="page1">
-                <div class="row">
+            <div id="page1">
+                <div class="row" class="info">
                     <div class="col-6">  
                         <img  src="img/foofighters.jpg" alt="Image of album of the Foo Fighters" class="img-thumbnail" class="float-left">
                     </div>
@@ -53,7 +56,12 @@
                             <h2>Wasting Light</h2>
                             <h4>Foo Fighters</h4>
                             <h6>Alternative Rock - 2011</h6>
-
+                            <a href="#"><a class="btn btn-primary" href="#" role="button">BUY THIS ALBUM</a></a>
+                        </article>
+                    </div>
+                    <div class="line"></div>
+                    <div class="col-12" class="infotekst">
+                        <article class="infotekst">
                             <p>Wasting Light is the seventh studio album by American rock band Foo Fighters. 
                                 It was released in 2011 on RCA Records, and is the first album to feature rhythm guitarist Pat Smear since The Colour and the Shape (1997), 
                                 making the band a five piece with the album. Wishing to capture the essence of the group's earlier work and avoid 
@@ -61,18 +69,16 @@
                             </p>
                         </article>
                     </div>
-                    <div>
-                        <table class="table">
-                            <thead>
-                                <tr>Playlist</tr>
-                            </thead>
+                    <div class="line"></div>
+                    <div class="col-12">
+                        <table class="table" >
                             <tbody>
                                 <tr>
                                     <th scope="row">1.</th>
                                     <td>Bridge Burning</td>
                                     <td>4:46</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -80,7 +86,7 @@
                                     <td>Rope</td>
                                     <td>4:19</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -88,46 +94,107 @@
                                     <td>Dear Rosemary</td>
                                     <td>4:26</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
-                                    </td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>White Limo</td>
+                                    <td>3:22
+                                    </td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td>Arlandria</td>
+                                    <td>4:28</td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td>These Days</td>
+                                    <td>4:58</td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7.</th>
+                                    <td>Back & Forth</td>
+                                    <td>3:52</td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8.</th>
+                                    <td>A Matter of Time</td>
+                                    <td>4:36</td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9.</th>
+                                    <td>Miss the Misery</td>
+                                    <td>4:33</td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10.</th>
+                                    <td>I Should Have Known</td>
+                                    <td>4:15</td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11.</th>
+                                    <td>Walk</td>
+                                    <td>4:16
+                                    </td>
+                                    <td>
+                                            <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>                                </tr>
                             </tbody>
                         </table>
                     </div>
+                    <a href="#top" class="back_button"><a class="btn btn-primary" href="#" role="button">back</a></a>
                 </div>
             </div>
         <!--end of page 1 html-->
 
         <!--page 2 html-->
-            <div class="page2">
-                <div class="row">
+            <div id="page2">
+                <div class="row" class="info">
                     <div class="col-6">
                         <img src="img/rhcp.jpg" alt="Image of album of the Red Hot Chili Peppers" class="img-thumbnail">
                     </div>
                     <div class="col-6">
-                        <article>
+                        <article class="float-left">
                             <h2>The Getaway</h2>
                             <h4>Red Hot Chili Peppers</h4>
                             <h6>Funk Rock - 2015</h6>
+                            <a href="#"><a class="btn btn-primary" href="#" role="button">BUY THIS ALBUM</a></a>
+                        </article>
+                    </div>
+                    <div class="line"></div>
+                    <div class="col-12" class="infotekst">
+                        <article class="infotekst">
                             <p>The Getaway is the eleventh studio album by American rock band Red Hot Chili Peppers, released through Warner Bros. in 2016.
-                                    This is the band's first studio album since 2011's I'm with You. It was produced by Danger Mouse, who replaced Rick Rubin after 
-                                    twenty-five years and six albums as the band's producer, making it the first non-Rubin produced album since 1989's Mother's Milk, 
-                                    while its release makes the current lineup of the band only the second in the group's history to record more than one album together.
+                                This is the band's first studio album since 2011's I'm with You. It was produced by Danger Mouse, who replaced Rick Rubin after 
+                                twenty-five years and six albums as the band's producer, making it the first non-Rubin produced album since 1989's Mother's Milk, 
+                                while its release makes the current lineup of the band only the second in the group's history to record more than one album together.
                             </p>
                         </article>
                     </div>
-                    <div>
+                    <div class="line"></div>
+                    <div class="col-12">
                         <table class="table">
-                            <thead>
-                                <tr>Playlist</tr>
-                            </thead>
                             <tbody>
                                 <tr>
                                     <th scope="row">1.</th>
                                     <td>The Getaway</td>
                                     <td>4:10</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -135,7 +202,7 @@
                                     <td>Dark Necessities</td>
                                     <td>5:02</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -143,45 +210,130 @@
                                     <td>We Turn Red</td>
                                     <td>3:20</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>The Longest Wave</td>
+                                    <td>3:31</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td>Goodbye Angels</td>
+                                    <td>4:29</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td>Sick Love</td>
+                                    <td>3:41</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7.</th>
+                                    <td>Go Robot</td>
+                                    <td>4:24</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8.</th>
+                                    <td>Feasting on the Flowers</td>
+                                    <td>3:23</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9.</th>
+                                    <td>Detroit</td>
+                                    <td>3:47</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10.</th>
+                                    <td>This Ticonderoga</td>
+                                    <td>3:35</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11.</th>
+                                    <td>Encore</td>
+                                    <td>4:11</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12.</th>
+                                    <td>The Hunter</td>
+                                    <td>4:00</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13.</th>
+                                    <td>Dreams of a Samurai</td>
+                                    <td>6:09</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <a href="#top" class="back_button"><a class="btn btn-primary" href="#" role="button">back</a></a>
                 </div>
             </div>
         <!--end of page 2 html-->
         
         <!--page 3 html-->
-            <div class="page3">                
-                <div class="row">
+            <div id="page3">                
+                <div class="row" class="info">
                     <div class="col-6">
                         <img src="img/eden.jpg" alt="Image of album of Eden" class="img-thumbnail">
                     </div>
                     <div class="col-6">    
-                        <article>
+                        <article class="float-left">
                             <h2>I Think You Think Too Much Of Me</h2>
                             <h4>Eden</h4>
                             <h6>Alternative - 2016</h6>
-                            <p>I Think You Think Too Much of Me is the second EP by Irish musician EDEN, released in 2016 through his own label MCMXCV 
-                                    and distributed by Astralwerks. The EP was recorded and produced in Dublin and contains seven tracks spanning approximately 26 minutes.
-                                    I Think You Think Too Much Of Me is the first of Ng's works to be released on physical media, as it was produced in two 12-inch vinyl 
-                                    formats, clear red and clear, in addition to Compact Cassette.</p>
+                            <a href="#"><a class="btn btn-primary" href="#" role="button">BUY THIS ALBUM</a></a>
                         </article>
                     </div>
-                     <div>
+                    <div class="line"></div>
+                    <div class="col-12" class="infotekst">
+                        <article class="infotekst">
+                            <p>I Think You Think Too Much of Me is the second EP by Irish musician EDEN, released in 2016 through his own label MCMXCV 
+                                and distributed by Astralwerks. The EP was recorded and produced in Dublin and contains seven tracks spanning approximately 26 minutes.
+                                I Think You Think Too Much Of Me is the first of Ng's works to be released on physical media, as it was produced in two 12-inch vinyl 
+                                formats, clear red and clear, in addition to Compact Cassette.</p>
+                        </article>
+                    </div>
+                    <div class="line"></div>
+                    <div class="col-12">
                         <table class="table">
-                            <thead>
-                                <tr>Playlist</tr>
-                            </thead>
                             <tbody>
                                 <tr>
                                     <th scope="row">1.</th>
                                     <td>sex</td>
                                     <td>3:38</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -189,7 +341,7 @@
                                     <td>drugs</td>
                                     <td>5:38</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -197,72 +349,194 @@
                                     <td>and</td>
                                     <td>2:13</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>rock + roll</td>
+                                    <td>4:56</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td>Fumes</td>
+                                    <td>3:34</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td>XO</td>
+                                    <td>2:39</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7.</th>
+                                    <td>Circles</td>
+                                    <td>4:34</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <a href="#top" class="back_button"><a class="btn btn-primary" href="#" role="button">back</a></a>
                 </div>
             </div>
         <!--end of page 3 html-->
 
         <!--page 4 html-->
-            <div class="page4">                                
-                <div class="row">
+            <div id="page4">                                
+                <div class="row" class="info">
                     <div class="col-6">
                         <img src="img/riseagainst.jpg" alt="Image of album of Rise Against" class="img-thumbnail">
                     </div>
-                    <div class="col-6">    
-                        <article>
+                    <div class="col-6" class="info">    
+                        <article class="float-left">
                             <h2>The Sufferer And The Witness</h2>
-                            <h4>Rise Agains</h4>
+                            <h4>Rise Against</h4>
                             <h6>Hardcore Punk - 2006</h6>
-                            <p>The Sufferer And the Witness is the fourth album by the American punk rock band Rise Against. 
-                                    The album was released in 2006. It was their second release on major label Geffen Records, following 2004's Siren Song of the 
-                                    Counter Culture. It is their final studio album on Geffen, and the last to feature guitarist Chris Chasse. 
-                                    It sold 48,000 copies in its first week, debuting at #10 on the Billboard 200. 
-                                    The album has been certified gold by the RIAA and platinum by the CRIA.</p>
+                            <a href="#"><a class="btn btn-primary" href="#" role="button">BUY THIS ALBUM</a></a>
                         </article>
                     </div>
+                    <div class="line"></div>
+                    <div class="col-12">
+                        <article class="infotekst">
+                            <p>The Sufferer And the Witness is the fourth album by the American punk rock band Rise Against. 
+                                The album was released in 2006. It was their second release on major label Geffen Records, following 2004's Siren Song of the 
+                                Counter Culture. It is their final studio album on Geffen, and the last to feature guitarist Chris Chasse. 
+                                It sold 48,000 copies in its first week, debuting at #10 on the Billboard 200. 
+                                The album has been certified gold by the RIAA and platinum by the CRIA.</p>
+                        </article>
+                    </div>
+                    <div class="line"></div>
                     <div class="col-12">
                         <table class="table">
-                            <thead>
-                                <tr>Playlist</tr>
-                            </thead>
                             <tbody>
                                 <tr>
                                     <th scope="row">1.</th>
                                     <td>Intro/Chamber the Cartridge</td>
                                     <td>3:35</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2.</th>
-                                    <td>Dark Necessities</td>
+                                    <td>Injection</td>
                                     <td>3:19</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3.</th>
-                                    <td>We Turn Red</td>
+                                    <td>Ready to Fall</td>
                                     <td>3:47</td>
                                     <td>
-                                        <img src="img/styles/playbutton.png" alt="playbutton" height="15px">
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>Bricks</td>
+                                    <td>1:30</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td>Under the Knife</td>
+                                    <td>2:45</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td>Prayer of the Refugee</td>
+                                    <td>3:21</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7.</th>
+                                    <td>Drones</td>
+                                    <td>3:01</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8.</th>
+                                    <td>The Approaching Curve</td>
+                                    <td>3:44</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9.</th>
+                                    <td>Worth Dying For</td>
+                                    <td>3:20</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10.</th>
+                                    <td>Behind Closed Doors</td>
+                                    <td>3:15</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11.</th>
+                                    <td>Roadside</td>
+                                    <td>3:21</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12.</th>
+                                    <td>The Good Left Undone</td>
+                                    <td>4:10</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13.</th>
+                                    <td>Survive</td>
+                                    <td>3:40</td>
+                                    <td>
+                                        <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <a href="#top" class="back_button"><a class="btn btn-primary" href="#" role="button">back</a></a>
                 </div>
             </div>
         <!--end of page 4 html-->
     </div>
+
 </div> 
+<div class="bottom">
+        <p>© 2017 - Arteveldehogeschool</p>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
