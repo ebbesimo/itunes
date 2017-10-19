@@ -24,11 +24,12 @@ html, body{
 #choice{
     text-align: center;
     margin:0px 0px;
+    margin-top: -40px;
 }
 
 #choice p{
     color: #878786;
-    font-size: 22pt;
+    font-size: 18pt;
     font-weight: bolder;
 }
 
@@ -46,9 +47,14 @@ html, body{
     border-color: none;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+.images-fp a{ 
+    margin-bottom: 10px;
+}
+
 
 .images-fp a:hover .img-thumbnail{    
     border-width: 10px;
@@ -205,6 +211,39 @@ h2,h4,h6,p,article,td,th{
 @media (min-width: 991px) { 
     .header p{
         padding-left: 180px;
+    }
+    
+    #choice{
+        margin-top: 0px;
+    }
+    
+    #choice p{
+        font-size: 22pt;
+    }
+
+    .images-fp{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    
+    
+    
+    
+    
+    h2{
+        font-weight: bolder;
+        font-size: 22pt;
+    }
+    
+    h4{
+        font-size: 17pt;
+    }
+    
+    h6{
+        font-size: 13pt;
+        font-style: italic;
+        font-weight: lighter;
     }
  }
 
